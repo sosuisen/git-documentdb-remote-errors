@@ -14,7 +14,7 @@
  * Use 'unknown' type assertion for constructor arguments in subclass of BaseError
  * to use 'expect' in test. See https://github.com/facebook/jest/issues/8279
  */
-class BaseError extends Error {
+export class BaseError extends Error {
   constructor(e: string) {
     super(e);
     this.name = new.target.name;

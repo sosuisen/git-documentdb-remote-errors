@@ -1,6 +1,6 @@
 {
   "name": "git-documentdb-remote-errors",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Error classes for GitDocumentDB RemoteEngines",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
